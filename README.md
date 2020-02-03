@@ -13,4 +13,4 @@ Jorge Henrique – [@LinkedIn](https://www.linkedin.com/in/jorge-henrique-baptis
 
 The MIT License (MIT)
 
-Copyright (c) 2020 pitstopdriver
+Copyright (c) 2018-2020 noteseries
