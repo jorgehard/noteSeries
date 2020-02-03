@@ -1,0 +1,11 @@
+textarea {
+    resize: none;
+}
+.style-box-series img{
+	border-radius:4px;
+}
+.style-box-series a{
+	text-decoration:none;
+	color:#333;
+	
+}
