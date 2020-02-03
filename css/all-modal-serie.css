@@ -1,0 +1,109 @@
+
+/*------------ GROUP LEFT --------------- */
+.group-list {
+	width:100%; 
+	list-style-type:none; 
+	padding:0px; 
+	margin:0px;
+}
+.group-list li {
+	background: #484848; 
+	width:100%; 
+	height:35px;
+	line-height:35px;
+	padding-left:6px;
+	z-index:1;
+}
+.group-list li a{
+	text-decoration:none;
+	color:#f3f3f3;
+	z-index:2;
+}
+.group-list li:nth-child(odd) { 
+	background: #282828; 
+}
+.group-list li:hover{
+	background:#f3f3f3;
+}
+.group-list li:hover span{
+	cursor:pointer;
+	color:#333;
+}.group-list li:hover a{
+	cursor:pointer;
+	color:#333;
+}
+.group-list li a:hover{
+	padding-left:10px;
+	background:#adadad;
+	color:#f3f3f3;
+}
+/*---------------------------------------------- */
+.group-top-info { 
+	margin-left:10px; 
+}
+.group-top-info li{
+	padding:0px 20px 0px 0px;
+}
+.active-group-list a{
+	padding-left:10px;
+	background:#adadad !important;
+}
+.active-group-list{
+	position:relative;
+	background:#f3f3f3 !important;
+	opacity:0.7;
+}
+.active-group-list:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 0%; 
+  height: 100%; 
+  
+  position:absolute;
+  top:0px;
+  right:-8px;
+  border-top: 17.5px solid transparent;
+  border-bottom: 17.5px solid transparent;
+  border-left: 17.5px solid #adadad;
+}
+/* ------------------------------- INSIDE MODAL SERIE ----------------------------------*/
+.modal-box-banner{
+	position:relative; 
+	top:0; 
+	padding:15px; 
+	height:50%; 
+	border-radius:5px; 
+	z-index:99;
+}
+.modal-box-banner .close{
+	color:#ff0000; 
+	opacity:1; 
+	font-size:25px;
+}
+.modal-box-banner .geral-box-modal{
+	color:#fff; 
+	font-family: 'Roboto', sans-serif;
+}
+.modal-box-banner .geral-box-modal .descricao{
+	margin-left:10px; 
+	font-size:13px;
+}
+.modal-box-banner .img-top-modal{
+	position:absolute; 
+	top:0; 
+	left:0;
+	width:100%;
+	margin:0px; 
+	height:100%;
+	opacity:0.5; 
+	z-index:-99; 
+	border-top-left-radius:5px; 
+	border-top-right-radius:5px; 
+	-webkit-filter: saturate(200%);
+	
+}
+.modal-box-banner .capa-modal img{
+	border-radius:5px; 
+	border:1px solid #f3f3f3;
+}
